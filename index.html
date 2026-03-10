@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Class - Aventura LoFi de Ingles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Master Class</div>
+        <div class="nav-links">
+          <a href="#aventura">Aventura</a>
+          <a href="#conteudo">Conteudo</a>
+          <a href="#planos">Planos</a>
+          <a href="#dashboard">Demo</a>
+        </div>
+        <button class="btn ghost">Entrar</button>
+      </nav>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="tag">LoFi medieval + progresso real</p>
+          <h1>Aprenda ingles como uma jornada. </h1>
+          <p class="subtitle">
+            Uma plataforma automatizada e gamificada, com conteudo organizado
+            por niveis e uma experiencia relaxante. Ganhe EXP ao assistir videos,
+            concluir exercicios e falar corretamente.
+          </p>
+          <div class="hero-cta">
+            <button class="btn">Comecar gratuito</button>
+            <button class="btn ghost">Ver trilha</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat">120+</span>
+              <span class="label">micro-licoes</span>
+            </div>
+            <div>
+              <span class="stat">7</span>
+              <span class="label">modulos por nivel</span>
+            </div>
+            <div>
+              <span class="stat">3</span>
+              <span class="label">planos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-face"></div>
+          </div>
+          <div class="rank">
+            <span class="rank-title">Plebeu</span>
+            <span class="rank-xp">XP 240 / 400</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 60%"></div>
+          </div>
+          <div class="quest">
+            <div class="quest-title">Missao atual</div>
+            <div class="quest-body">
+              Complete 3 exercicios de "Verb To Be".
+            </div>
+            <button class="btn small">Continuar</button>
+          </div>
+          <div class="hero-footer">
+            <span>Streak: 6 dias</span>
+            <span>Rank proximo: Escudeiro</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="aventura" class="section">
+      <div class="section-title">
+        <h2>Aventura personalizada</h2>
+        <p>Trilha adaptada ao nivel do aluno, com feedback imediato.</p>
+      </div>
+      <div class="grid three">
+        <div class="card">
+          <h3>Mapa de jornada</h3>
+          <p>
+            Cada missao desbloqueia a proxima. Ganhe EXP por acertos perfeitos,
+            revisoes e participacao.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Estetica LoFi</h3>
+          <p>
+            Interface calma, com cores quentes e ritmo suave para manter o foco.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Rank medieval</h3>
+          <p>
+            Suba de Plebeu a Rei. Cada nivel traz novas areas e desafios.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="conteudo" class="section alt">
+      <div class="section-title">
+        <h2>Estrutura de conteudo</h2>
+        <p>Base modular para adaptar seus videos, textos e exercicios.</p>
+      </div>
+      <div class="grid two">
+        <div class="card">
+          <h3>Fundamentos</h3>
+          <ul class="list">
+            <li>Verb To Be e pronomes</li>
+            <li>Tempos basicos</li>
+            <li>Vocabulário de sobrevivencia</li>
+            <li>Listening curto e repeticao</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Intermediario e Avancado</h3>
+          <ul class="list">
+            <li>Tempos perfeitos e condicionais</li>
+            <li>Conversacao guiada</li>
+            <li>Leitura critica</li>
+            <li>Escrita aplicada</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid three">
+        <div class="chip">Grammar</div>
+        <div class="chip">Vocabulary</div>
+        <div class="chip">Listening</div>
+        <div class="chip">Reading</div>
+        <div class="chip">Speaking</div>
+        <div class="chip">Writing</div>
+      </div>
+    </section>
+
+    <section id="dashboard" class="section">
+      <div class="section-title">
+        <h2>Demo de progresso</h2>
+        <p>Simule como o aluno evolui ao completar atividades.</p>
+      </div>
+      <div class="dashboard">
+        <div class="panel">
+          <h3>Quests do dia</h3>
+          <div class="quest-list">
+            <div class="quest-item">
+              <div>
+                <div class="quest-name">Video: Verb To Be</div>
+                <div class="quest-meta">5 min</div>
+              </div>
+              <button class="btn small" data-exp="60">Concluir</button>
+            </div>
+            <div class="quest-item">
+              <div>
+                <div class="quest-name">Speaking: Apresentacao</div>
+                <div class="quest-meta">Audio + correcoes</div>
+              </div>
+              <button class="btn small" data-exp="90">Concluir</button>
+            </div>
+            <div class="quest-item">
+              <div>
+                <div class="quest-name">Exercicio 10/10</div>
+                <div class="quest-meta">Bonus de acerto perfeito</div>
+              </div>
+              <button class="btn small" data-exp="120">Concluir</button>
+            </div>
+          </div>
+        </div>
+        <div class="panel highlight">
+          <h3>Seu status</h3>
+          <div class="status">
+            <div>
+              <div class="status-label">Rank atual</div>
+              <div class="status-value" id="rankLabel">Plebeu</div>
+            </div>
+            <div>
+              <div class="status-label">EXP</div>
+              <div class="status-value" id="xpLabel">240 / 400</div>
+            </div>
+          </div>
+          <div class="progress big">
+            <div class="progress-bar" id="xpBar" style="width: 60%"></div>
+          </div>
+          <div class="status-note" id="statusNote">Faltam 160 XP para Escudeiro</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planos" class="section alt">
+      <div class="section-title">
+        <h2>Planos</h2>
+        <p>De gratuito a consultoria individual.</p>
+      </div>
+      <div class="grid three">
+        <div class="card pricing">
+          <h3>Free</h3>
+          <p class="price">R$ 0</p>
+          <ul class="list">
+            <li>Acesso a aulas abertas</li>
+            <li>SEO para buscas organicas</li>
+            <li>Missao diaria basica</li>
+          </ul>
+          <button class="btn ghost">Comecar</button>
+        </div>
+        <div class="card pricing accent">
+          <h3>Pro</h3>
+          <p class="price">R$ 49</p>
+          <ul class="list">
+            <li>Trilha completa por nivel</li>
+            <li>Correcoes automatizadas</li>
+            <li>Ranking e desafios semanais</li>
+          </ul>
+          <button class="btn">Assinar</button>
+        </div>
+        <div class="card pricing">
+          <h3>Mentoria</h3>
+          <p class="price">R$ 199</p>
+          <ul class="list">
+            <li>Aulas individuais com voce</li>
+            <li>Consultoria de metas</li>
+            <li>Plano personalizado</li>
+          </ul>
+          <button class="btn ghost">Agendar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="cta">
+        <h2>Pronto para transformar aprendizado em aventura?</h2>
+        <p>
+          Comece com o conteudo gratuito e evolua quando quiser.
+        </p>
+        <button class="btn">Criar conta</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>Master Class © 2026</div>
+      <div>Contato: seuemail@dominio.com</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
